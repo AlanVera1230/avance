@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #8ab8a8;
+   
+}
+
+a{
+    color: #657a38;
+}
+
+.nav-link{
+    color: #657a38;
+}
+
+.form{
+    padding-bottom: 50px;
+}
+
+.caja1{
+    width: 800px;
+    padding-top: 30px ;
+    position: relative;
+    top: 20px;
+    left: 250px;
+    box-shadow: black 1px 3px 6px;
+}
+
+.card-text1{
+    position: relative;
+    left: 300px;
+}
+
+.btn{
+    position: relative;
+    width: 200px;
+    margin-left: 20px;
+    left: 10px;
+    background-color: green;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    
+}

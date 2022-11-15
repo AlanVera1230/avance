@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative; 
+    background-image:
+    url('../images/form2.jpg');
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .formQueja {
+    background-color: white;
+   margin-top: 80px;
+    width: 600px;
+    height: 470px;
+  }
+  
+  .form-options {
+    padding: 30px;
+  }
+  
+  .input-4 {
+    width: 100%;
+    height: 20px;
+    border-style: none;
+    border-bottom: 1px solid #657A38;
+    outline: none;
+  }
+  
+  
+  @media screen and (max-width: 430px){
+    .formQueja {
+     padding-top: 40px;
+      width: 100%;
+      height: 600px;
+    }
+    
+    .form-options {
+      padding-top: 80px;
+    }  
+  
+  }

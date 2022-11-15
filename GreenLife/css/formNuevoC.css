@@ -1,0 +1,103 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative; 
+    background-image:
+    url('../images/form1.jpg');
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .formNuevo {
+    background-color: white;
+   
+    width: 600px;
+    height: 500px;
+  }
+
+  .form-options {
+    padding: 30px;
+  }
+
+  .form-options h1 {
+    color: #657A38;
+  }
+
+  .input-1 {
+    width: 120px;
+    height: 20px;
+    border-style: none;
+    border-bottom: 1px solid #657A38;
+    outline: none;
+  }
+
+  .input-2 {
+    width: 130px;
+    height: 20px;
+    border-style: none;
+    border-style: none;
+    border-bottom: 1px solid #657A38;
+    outline: none;
+  }
+
+  .input-2-label {
+    padding-left: 30px;
+  }
+
+  .input-3 {
+    width: 130px;
+    height: 20px;
+    border-style: none;
+    border-bottom: 1px solid #657A38;
+    outline: none;
+  }
+
+  .input-3-label {
+    padding-left: 30px;
+  }
+
+  .input-4 {
+    width: 100%;
+    height: 20px;
+    border-style: none;
+    border-bottom: 1px solid #657A38;
+    outline: none;
+  }
+
+  .input-5 {
+    width: 100%;
+    height: 20px;
+    border-style: none;
+    border-bottom: 1px solid #657A38;
+    outline: none;
+  }
+
+  .input-6 {
+    width: 100%;
+    height: 20px;
+    border-style: none;
+    border-bottom: 1px solid #657A38;
+    outline: none;
+  }
+
+  @media screen and (max-width: 430px){
+      .formNuevo {
+       padding-top: 40px;
+        width: 100%;
+        height: 800px;
+      }
+      
+      .form-options {
+        padding-top: 80px;
+      }  
+
+      
+  }
+
+ 
+  
